@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PriceFragment">
+
+    <!-- Base Price -->
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/base_price" />
+
+                <TextView
+                    android:id="@+id/price_base_price_text_view"
+                    style="@style/CardBaseText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="39.90" />
+
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- A breakdown of the rate will go here-->
+                <TextView
+                    android:id="@+id/price_base_price_breakdown_title_text_view"
+                    style="@style/CalculationsText" />
+
+                <TextView
+                    android:id="@+id/price_base_price_breakdown_text_view"
+                    style="@style/CalculationsText.Calculation" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Promo Amount on Price -->
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/promo_amount_on_price" />
+
+                <TextView
+                    android:id="@+id/price_promo_amount_on_price_text_view"
+                    style="@style/CardBaseText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="3.99" />
+
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- A breakdown of the rate will go here-->
+                <TextView
+                    android:id="@+id/price_promo_amount_on_price_breakdown_title_text_view"
+                    style="@style/CalculationsText" />
+
+                <TextView
+                    android:id="@+id/price_promo_amount_on_price_breakdown_text_view"
+                    style="@style/CalculationsText.Calculation" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Price After Promo -->
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/price_after_promo" />
+
+                <TextView
+                    android:id="@+id/price_price_after_promo_text_view"
+                    style="@style/CardBaseText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="32.95" />
+
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- A breakdown of the rate will go here-->
+                <TextView
+                    android:id="@+id/price_price_after_promo_breakdown_title_text_view"
+                    style="@style/CalculationsText" />
+
+                <TextView
+                    android:id="@+id/price_price_after_promo_breakdown_text_view"
+                    style="@style/CalculationsText.Calculation" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Compensation on Rate -->
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/compensation_on_rate" />
+
+                <TextView
+                    android:id="@+id/price_compensation_on_rate_text_view"
+                    style="@style/CardBaseText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="32.95" />
+
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- A breakdown of the rate will go here-->
+                <TextView
+                    android:id="@+id/price_compensation_on_rate_breakdown_title_text_view"
+                    style="@style/CalculationsText" />
+
+                <TextView
+                    android:id="@+id/price_compensation_on_rate_breakdown_text_view"
+                    style="@style/CalculationsText.Calculation" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaxFragment">
+
+    <!-- Customer tax -->
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/customer_tax" />
+
+                <TextView
+                    android:id="@+id/tax_customer_tax_text_view"
+                    style="@style/CardBaseText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="11.21" />
+
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- A breakdown of the tax will go here-->
+                <TextView
+                    android:id="@+id/tax_customer_tax_breakdown_title_text_view"
+                    style="@style/CalculationsText" />
+
+                <TextView
+                    android:id="@+id/tax_customer_tax_breakdown_text_view"
+                    style="@style/CalculationsText.Calculation" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tax to hotel -->
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/tax_to_hotel" />
+
+                <TextView
+                    android:id="@+id/tax_tax_to_hotel_text_view"
+                    style="@style/CardBaseText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="4.45" />
+
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- A breakdown of the tax will go here-->
+                <TextView
+                    android:id="@+id/tax_tax_to_hotel_breakdown_title_text_view"
+                    style="@style/CalculationsText" />
+
+                <TextView
+                    android:id="@+id/tax_tax_to_hotel_breakdown_text_view"
+                    style="@style/CalculationsText.Calculation" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

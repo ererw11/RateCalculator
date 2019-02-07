@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Rate Calculator</string>
+
+    <string name="rate_breakdown">Rate Breakdown</string>
+    <string name="net_cost_header">Net / Cost</string>
+    <string name="price_header">Price</string>
+    <string name="sell_lar_header">Sell / LAR</string>
+    <string name="price_summary">Price Summary</string>
+    <string name="trip_total">Trip Total</string>
+    <string name="acquired_rate">Acquired Rate</string>
+    <string name="net">Net</string>
+    <string name="taxes_and_fees">Taxes and Fees</string>
+    <string name="taxes_included_in_sell_rate">Taxes included in sell rate</string>
+    <string name="fees_included_in_sell_rate">Fees included in sell rate</string>
+    <string name="taxes_waived_in_rate_plan">Taxes waived in rate plan</string>
+    <string name="amounts">Amounts</string>
+    <string name="compensation">Compensation</string>
+    <string name="taxes">Taxes</string>
+    <string name="promotion">Promotion</string>
+    <string name="calculate">Calculate</string>
+    <string name="base_cost">Base cost</string>
+    <string name="promo_amount_on_cost">Promo amount on cost</string>
+    <string name="cost_after_promo">Cost after promo</string>
+    <string name="base_price">Base price</string>
+    <string name="promo_amount_on_price">Promo amount on price</string>
+    <string name="price_after_promo">Price after promo</string>
+    <string name="compensation_on_rate">Compensation on rate</string>
+    <string name="customer_tax">Customer tax</string>
+    <string name="tax_to_hotel">Tax to hotel</string>
+    <string name="cost">Cost</string>
+    <string name="price">Price</string>
+    <string name="tax">Tax</string>
+</resources>
